@@ -10,4 +10,5 @@ Kassa web page design using HTML, CSS and JavaScript.
 
 ## Progress
 Finished!
-#Laravel Project Added!
+
+# Laravel Project Added!
