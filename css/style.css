@@ -4,6 +4,7 @@
 }
 
 body {
+    height: 100%;
     background: linear-gradient(90deg, rgba(21, 162, 254, 0.6) 0%, rgba(228, 44, 140, 0.6) 100%), #FFFFFF;
 }
 
@@ -511,21 +512,13 @@ hr {
 /*#Logos*/
 
 /*Responsive*/
-@media screen and (max-width: 600px) {
-    aside {
-        display: none;
-    }
-
-    .nav-left {
-        display: none;
-    }
-
+@media screen and (max-width: 700px) {
     .nav-right {
         justify-content: flex-start;
         width: 100%;
     }
 
-    .nav-right-right{
+    .nav-right-right {
         gap: 5px;
         flex-wrap: wrap;
     }
@@ -540,6 +533,7 @@ hr {
         background: none;
         border: none;
         margin-left: 8px;
+        cursor: pointer;
     }
 
     .ultimatum-logo {
@@ -555,7 +549,7 @@ hr {
         margin-right: 5px;
     }
 
-    .voorraad-button{
+    .voorraad-button {
         padding: 12px;
     }
 
@@ -563,7 +557,7 @@ hr {
         display: none;
     }
 
-    .geopend-button{
+    .geopend-button {
         padding: 12px;
     }
 
@@ -571,41 +565,92 @@ hr {
         display: none;
     }
 
-    .header-buttons-div{
+    .header-buttons-div {
         gap: 5px;
     }
 
-    main{
-        display: block;
-        position: relative;
-    }
-
-    section{
+    section {
         flex-direction: column;
         width: 95%;
         margin: 15px;
     }
 
-    .section-left{
+    .section-left {
         width: 100%;
         gap: 15px;
         padding: 0;
         margin-bottom: 15px;
     }
 
-    .section-right{
+    .section-right {
         width: 100%;
         padding: 0;
     }
 
-    .section-pizza-div{
+    .section-pizza-div {
         gap: 10px;
     }
 
-    .pizza{
+    .pizza {
         width: 100%;
         max-width: 126px;
         height: 130px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    aside {
+        display: none;
+        position: absolute;
+        width: auto;
+        height: 100%;
+    }
+
+    .nav-left {
+        display: none;
+    }
+
+    .nav-right {
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .nav-responsive-sidebar {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 32px;
+        background: none;
+        border: none;
+        margin-left: 8px;
+        cursor: pointer;
+    }
+
+    .ultimatum-logo {
+        margin-left: 20px;
+    }
+
+    .nav-right-right {
+        margin-right: 20px;
+        gap: 10px;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    .voorraad-button {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .voorraad-button {
+        padding: 12px;
+    }
+
+    .voorraad-button p {
+        display: none;
     }
 }
 
