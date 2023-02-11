@@ -513,6 +513,10 @@ hr {
 
 /*Responsive*/
 @media screen and (max-width: 700px) {
+    main {
+        position: relative;
+    }
+
     .nav-right {
         justify-content: flex-start;
         width: 100%;
