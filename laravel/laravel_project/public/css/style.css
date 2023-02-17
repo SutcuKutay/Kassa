@@ -8,6 +8,10 @@ body {
     background: linear-gradient(90deg, rgba(21, 162, 254, 0.6) 0%, rgba(228, 44, 140, 0.6) 100%), #FFFFFF;
 }
 
+button{
+    cursor: pointer;
+}
+
 /*Navbar*/
 nav {
     display: flex;
@@ -184,6 +188,7 @@ aside a {
 
 /*#Sidebar*/
 
+/*Kassa*/
 /*Section*/
 section {
     display: flex;
@@ -446,6 +451,8 @@ hr {
 }
 
 /*#Section*/
+/*#Kassa*/
+
 
 /*#Main*/
 
@@ -464,6 +471,10 @@ hr {
 
 .margin-left {
     margin-left: 20px;
+}
+
+.grey {
+    color: #333333;
 }
 
 .orange {
@@ -492,6 +503,22 @@ hr {
 
 .light-orange {
     background: #FF9800;
+}
+
+.bg-green {
+    background: #4CAF50;
+}
+
+.bg-yellow {
+    background: #FFC83B;
+}
+
+.bg-pink {
+    background: #E91E63;
+}
+
+.bg-blue {
+    background: #2196F3;
 }
 
 /*#Tools*/

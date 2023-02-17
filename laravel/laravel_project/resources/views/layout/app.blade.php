@@ -9,6 +9,7 @@
     <meta name="description" content="Ultimatum App Web Page">
     <title>Ultimatum | @yield('title')</title>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     @yield('css')
 </head>
 
@@ -74,24 +75,28 @@
     <main>
         <!--Sidebar-->
         <aside>
-            <div class="sidebar-div">
-                <div class="sidebar-content-div">
-                    <div class="icon-div">
-                        <img src="{{ asset('assets/img/icons/sidebar/static.png') }}" alt="" width="32"
-                            height="32">
+            <a href="/statistieken">
+                <div class="sidebar-div">
+                    <div class="sidebar-content-div">
+                        <div class="icon-div">
+                            <img src="{{ asset('assets/img/icons/sidebar/static.png') }}" alt="" width="32"
+                                height="32">
+                        </div>
+                        <p>Statistieken</p>
                     </div>
-                    <p>Statistieken</p>
                 </div>
-            </div>
-            <div class="sidebar-div">
-                <div class="sidebar-content-div">
-                    <div class="icon-div">
-                        <img src="{{ asset('assets/img/icons/sidebar/list.png') }}" alt="" width="32"
-                            height="32">
+            </a>
+            <a href="/bestellingen">
+                <div class="sidebar-div">
+                    <div class="sidebar-content-div">
+                        <div class="icon-div">
+                            <img src="{{ asset('assets/img/icons/sidebar/list.png') }}" alt="" width="32"
+                                height="32">
+                        </div>
+                        <p>Bestellingen</p>
                     </div>
-                    <p>Bestellingen</p>
                 </div>
-            </div>
+            </a>
             <a href="/kassa">
                 <div class="sidebar-div">
                     <div class="sidebar-content-div">
