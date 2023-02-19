@@ -24,3 +24,7 @@ Route::get('kassa', function () {
 Route::get('bestellingen', function(){
     return view('bestellingen');
 });
+
+Route::get('statistieken', function(){
+    return view('statistieken');
+});
