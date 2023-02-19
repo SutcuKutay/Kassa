@@ -5,7 +5,10 @@ Kassa web page design using HTML, CSS and JavaScript.
 
 ## Images
 ### Large Screens
+##Kassa
 ![kassa](https://user-images.githubusercontent.com/94748829/217276482-d4f72514-6e48-47df-a0dc-800453084ff0.PNG)
+##Bestellingen
+![bestellingen](https://user-images.githubusercontent.com/94748829/219743610-caee523b-1e44-4343-836a-d375cefd595a.PNG)
 
 ### Responsive
 ![kassa(responsive)](https://user-images.githubusercontent.com/94748829/217810300-710d5b98-84ed-4fc4-97c0-226b28c61442.PNG)
